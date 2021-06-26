@@ -3,6 +3,7 @@ try:
 	import clearing
 except ImportError:
 	os.system("pip3 install clearing")
+	import clearing
 
 #                           I L0V3 Y0U OS 1.0!!!                                    #
 

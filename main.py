@@ -1,4 +1,8 @@
-import os, time, clearing
+import os, time
+try:
+	import clearing
+except ImportError:
+	os.system("pip3 install clearing")
 
 #                           I L0V3 Y0U OS 1.0!!!                                    #
 
